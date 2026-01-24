@@ -1,0 +1,74 @@
+===== DOM Structure =====
+
+
+1. Structure des dossiers et fichiers :
+```assets/DOM
+├── index.html
+├── assets
+│   ├── css
+│   │   └── styles.css
+│   ├── js
+│   │   ├── scrollreveal.js
+│   │   └── script.js
+│   └── img
+│       ├── home.png
+│       ├── about.jpg
+│       ├── app1.png
+│       ├── app2.png
+│       └── menu1.png
+```
+
+
+
+2. Le fichier index.html contient la structure de base du site web de restauration responsive. Voici un aperçu de la structure DOM :
+```
+   ├── Head
+   │   ├── Meta (charset, viewport)
+   │   ├── Title: "Site web de restauration responsive"
+   │   ├── CSS Links
+   │   │   ├── Boxicons (icônes)
+   │   │   └── styles.css (feuille de style principale)
+   │   └── JavaScript Links
+   │       └── scrollreveal.js (animation de défilement)
+   └── Body
+       ├── Scroll Top Button
+       ├── Header
+       │   ├── Navigation Bar
+       │   │   ├── Logo: "Délices"
+       │   │   ├── Menu Items: Accueil, À propos, Services, Menu, Contactez-nous
+       │   │   └── Theme Toggle Button
+       ├── Main Content
+       │   ├── Section: Home
+       │   │   ├── Titre: "Délices culinaires"
+       │   │   ├── Sous-titre: "Découvrez les meilleurs plats de la semaine"
+       │   │   └── Image: home.png
+       │   ├── Section: About
+       │   │   ├── Titre: "Nous cuisinons les meilleurs plats savoureux"
+       │   │   ├── Description: "Nous préparons les meilleurs plats..."
+       │   │   └── Image: about.jpg
+       │   ├── Section: Services
+       │   │   ├── Service 1: Cuisine excellente
+       │   │   ├── Service 2: Restauration rapide
+       │   │   └── Service 3: Livraison
+       │   ├── Section: Menu
+       │   │   ├── Plat 1: Salade barbecue (22,00 €)
+       │   │   ├── Plat 2: Salade au poisson (12,00 €)
+       │   │   └── Plat 3: Salade d épinards (9,50 €)
+       │   ├── Section: Application
+       │   │   ├── Titre: "Application disponible"
+       │   │   ├── Description: "Trouvez notre application..."
+       │   │   └── Images: app1.png, app2.png
+       │   └── Section: Contact
+       │       ├── Titre: "Contactez-nous"
+       │       ├── Description: "Si vous souhaitez réserver une table..."
+       │       └── Bouton: "Contactez-nous maintenant"
+       └── Footer
+           ├── Logo: "Délices culinaires"
+           ├── Services: Livraison, Tarifs, Restauration rapide, Réservez votre place
+           ├── Informations: Événements, Contactez-nous, Politique de confidentialité, Conditions dutilisation
+           ├── Adresse: Lima - Pérou, Jr Union #999, 01 40 76 96 28, beldelice@email.com
+           └── Copyright: "© 2025 Bel.dev de Litxx | Tous droits réservés"
+
+
+
+Pour les icônes vous allez utiliser la bibliothèque Boxicons incluse dans le head du fichier HTML.

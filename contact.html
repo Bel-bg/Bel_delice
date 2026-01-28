@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <style>
+      /* Language Switcher Dropdown */
+      .lang-switcher {
+        position: relative;
+        display: inline-block;
+        margin-left: 1rem;
+      }
+
+      .lang-selected {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        cursor: pointer;
+        padding: 0.4rem 0.6rem;
+        border-radius: 0.5rem;
+        transition: 0.3s;
+        background-color: transparent;
+      }
+
+      .lang-selected:hover {
+        background-color: var(--first-color-alt);
+        color: #fff;
+      }
+
+      .lang-selected img {
+        width: 20px;
+        height: 15px;
+        object-fit: cover;
+        border-radius: 2px;
+      }
+
+      .lang-dropdown {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: var(--container-color);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+        padding: 0.5rem 0;
+        display: none;
+        z-index: var(--z-fixed);
+        min-width: 120px;
+      }
+
+      .lang-switcher:hover .lang-dropdown {
+        display: block;
+      }
+
+      .lang-option {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.6rem 1rem;
+        cursor: pointer;
+        transition: 0.3s;
+        color: var(--title-color);
+        font-size: 0.9rem;
+      }
+
+      .lang-option:hover {
+        background-color: var(--first-color-alt);
+        color: #fff;
+      }
+
+      .lang-option img {
+        width: 20px;
+        height: 15px;
+        object-fit: cover;
+        border-radius: 2px;
+      }
+
+      .lang-option.active-lang {
+        color: var(--first-color);
+        font-weight: var(--font-semi-bold);
+      }
+
+      .lang-option.active-lang:hover {
+        color: #fff;
+      }
+    </style>
+    <title>Contactez-nous | Monitor</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="index.html" class="nav__logo">Monitor</a>
+        <div class="lang-switcher">
+          <div class="lang-selected" id="active-lang-display">
+            <img
+              src="https://flagcdn.com/w40/fr.png"
+              alt="FR"
+              id="active-flag"
+            />
+            <span id="active-lang-text">FR</span>
+            <i class="bx bx-chevron-down"></i>
+          </div>
+          <div class="lang-dropdown">
+            <div class="lang-option" onclick="changeLanguage('fr')">
+              <img src="https://flagcdn.com/w40/fr.png" alt="FR" />
+              <span>Français</span>
+            </div>
+            <div class="lang-option" onclick="changeLanguage('en')">
+              <img src="https://flagcdn.com/w40/gb.png" alt="EN" />
+              <span>English</span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <section class="contact section bd-container">
+        <span class="section-subtitle" data-i18n="contact_page.subtitle"
+          >Contact</span
+        >
+        <h2 class="section-title" data-i18n="contact_page.title">
+          Comment pouvons-nous vous aider ?
+        </h2>
+
+        <div class="contact__container bd-grid">
+          <div class="contact__data">
+            <p
+              class="contact__description"
+              data-i18n="contact_page.description"
+            >
+              Besoin d'aide technique ou de renseignements sur nos tarifs ?
+              Notre équipe est là pour vous accompagner.
+            </p>
+          </div>
+
+          <div class="contact__button">
+            <a
+              href="mailto:support@monitor.bj"
+              class="button"
+              data-i18n="contact_page.email_button"
+              >Envoyer un Email</a
+            >
+            <br /><br />
+            <p>
+              <span data-i18n="contact_page.phone">Téléphone</span> : +229 01 40
+              76 96 28
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section bd-container">
+      <p class="footer__copy" data-i18n="footer.copy">
+        &#169; 2026 Monitor par Litxx | Tous droits réservés
+      </p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <!--========== BILINGUAL JS ==========-->
+    <script src="assets/js/i18n.js"></script>
+  </body>
+</html>

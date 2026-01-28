@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "platform": "Plateforme",
+    "details": "Détails des fonctions",
+    "modules": "Modules Monitor",
+    "security": "Sécurité des données",
+    "access": "Accès",
+    "download": "Téléchargement PC",
+    "demo": "Demander une Démo",
+    "contact": "Contactez-nous"
+  },
+  "home": {
+    "title": "Monitor",
+    "subtitle": "L'excellence dans la <br /> gestion de vos notes.",
+    "button": "Découvrir l'application"
+  },
+  "about": {
+    "subtitle": "Qui sommes-nous",
+    "title": "Nous simplifions <br /> le suivi scolaire",
+    "description": "Monitor est une plateforme intuitive conçue pour aider les établissements à gérer efficacement les notes, l'assiduité et la communication globale, assurant ainsi la réussite de chaque élève.",
+    "button": "En savoir plus"
+  },
+  "features": {
+    "messages": {
+      "title": "Messages et communiqués",
+      "description": "Communication bidirectionnelle entre l'école et les parents en temps réel."
+    },
+    "notes": {
+      "title": "Consultation des notes",
+      "description": "Suivi instantané des résultats académiques et de l'évolution de l'élève."
+    },
+    "whatsapp": {
+      "title": "Notification WhatsApp",
+      "description": "Réception automatique des moyennes et avis via votre messagerie préférée."
+    },
+    "learning": {
+      "title": "Apprentissage sur mesure",
+      "description": "Des outils adaptés qui s'alignent sur le programme et le rythme de l'élève."
+    },
+    "games": {
+      "title": "Entraînement ludique",
+      "description": "Quiz interactifs et devoirs corrigés pour un apprentissage stimulant."
+    },
+    "intuitive": {
+      "title": "Simple et intuitive",
+      "description": "Interface conçue pour une prise en main immédiate par tous les utilisateurs."
+    }
+  },
+  "services": {
+    "subtitle": "Nos solutions",
+    "title": "Fonctionnalités clés",
+    "grades": {
+      "title": "Gestion des notes",
+      "description": "Saisie rapide et sécurisée des notes par les enseignants, avec génération automatique des bulletins scolaires."
+    },
+    "tracking": {
+      "title": "Suivi en temps réel",
+      "description": "Permettez aux parents de suivre instantanément l'évolution des notes et l'assiduité de leurs enfants via mobile."
+    },
+    "security": {
+      "title": "Sécurité des données",
+      "description": "Toutes les informations scolaires sont chiffrées et sauvegardées, garantissant une confidentialité totale."
+    }
+  },
+  "modules": {
+    "subtitle": "Modules",
+    "title": "Nos modules phares",
+    "teacher": "Portail Enseignant",
+    "parent": "Portail Parent",
+    "admin": "Administration",
+    "teacher_desc": "Gestion simplifiée",
+    "parent_desc": "Suivi transparent",
+    "admin_desc": "Contrôle complet",
+    "included": "Inclus",
+    "premium": "Premium"
+  },
+  "app": {
+    "subtitle": "Application",
+    "title": "Application disponible",
+    "description": "Emportez Monitor partout avec vous. Consultez les emplois du temps, les absences et recevez des notifications pour chaque nouvelle note."
+  },
+  "contact": {
+    "subtitle": "Discutons",
+    "title": "Besoin de plus d'infos ?",
+    "description": "Transformez votre établissement avec Monitor. Contactez notre équipe pour une démonstration personnalisée gratuite.",
+    "button": "Contactez-nous",
+    "or": "ou",
+    "demo_button": "Demander une Démo"
+  },
+  "details": {
+    "subtitle": "Détails",
+    "title": "Tout ce que Monitor peut faire",
+    "grades": {
+      "title": "Gestion des Notes & Bulletins",
+      "description": "Saisie intuitive des évaluations, calcul automatique des moyennes, et génération de bulletins scolaires personnalisables en un clic."
+    },
+    "attendance": {
+      "title": "Suivi de l'Assiduité",
+      "description": "Gestion des absences et des retards avec notifications instantanées aux parents via SMS ou application mobile."
+    },
+    "communication": {
+      "title": "Communication Parents-Enseignants",
+      "description": "Espace d'échange sécurisé pour discuter des progrès de l'élève, partager des devoirs et des annonces importantes."
+    },
+    "schedule": {
+      "title": "Emploi du Temps",
+      "description": "Planification interactive des cours, gestion des salles et des remplacements d'enseignants."
+    },
+    "links": "Liens rapides",
+    "download": "Télécharger"
+  },
+  "download": {
+    "subtitle": "Disponibilité",
+    "title": "Monitor pour votre ordinateur",
+    "windows": "Compatible Win 10, 11 (64-bit)",
+    "macos": "M1/M2 & Intel processors",
+    "linux": "AppImage, Deb, Rpm versions",
+    "button_exe": "Télécharger .exe",
+    "button_dmg": "Télécharger .dmg",
+    "button_appimage": "Télécharger .AppImage",
+    "install_title": "Installation facile",
+    "install_desc": "Téléchargez l'installeur correspondant à votre système d'exploitation, exécutez-le et connectez-vous avec vos identifiants Monitor fournis par votre établissement.",
+    "help": "Aide",
+    "guide": "Guide d'installation",
+    "faq": "FAQ",
+    "support": "Support Technique",
+    "legal": "Légal",
+    "security": "Sécurité"
+  },
+  "security": {
+    "subtitle": "Confidentialité",
+    "title": "Votre sécurité est notre priorité",
+    "encryption": {
+      "title": "Chiffrement de bout en bout",
+      "description": "Toutes les données élèves et les notes sont chiffrées lors du stockage et de la transmission."
+    },
+    "compliance": {
+      "title": "Conformité RGPD & Locale",
+      "description": "Nous respectons les normes de protection des données en vigueur au Bénin et les standards internationaux."
+    },
+    "backup": {
+      "title": "Sauvegardes automatiques",
+      "description": "Des sauvegardes quotidiennes garantissent que vos données scolaires ne seront jamais perdues."
+    }
+  },
+  "demo": {
+    "subtitle": "Démonstration",
+    "title": "Essayez Monitor gratuitement",
+    "description": "Remplissez le formulaire ci-dessous pour planifier une démonstration personnalisée avec l'un de nos experts. Découvrez comment Monitor peut transformer la gestion de votre établissement.",
+    "form": {
+      "school_name": "Nom de l'établissement",
+      "school_placeholder": "Ex: École de l'Excellence",
+      "contact_name": "Nom complet du contact",
+      "contact_placeholder": "Votre nom",
+      "email_label": "Email professionnel",
+      "email_placeholder": "email@ecole.com",
+      "phone_label": "Téléphone",
+      "phone_placeholder": "+229 00 00 00 00",
+      "students_label": "Nombre d'élèves",
+      "students_select": "Sélectionnez...",
+      "students_less_100": "Moins de 100",
+      "submit": "Envoyer la demande"
+    }
+  },
+  "contact_page": {
+    "subtitle": "Contact",
+    "title": "Comment pouvons-nous vous aider ?",
+    "description": "Besoin d'aide technique ou de renseignements sur nos tarifs ? Notre équipe est là pour vous accompagner.",
+    "email_button": "Envoyer un Email",
+    "phone": "Téléphone"
+  },
+  "footer": {
+    "description": "Gestion Scolaire",
+    "expertises": "Expertises",
+    "info": "Informations",
+    "address": "Adresse",
+    "copy": "&#169; 2026 Monitor par Litxx | Tous droits réservés"
+  }
+}

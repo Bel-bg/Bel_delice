@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "platform": "Platform",
+    "details": "Feature Details",
+    "modules": "Monitor Modules",
+    "security": "Data Security",
+    "access": "Access",
+    "download": "PC Download",
+    "demo": "Request a Demo",
+    "contact": "Contact Us"
+  },
+  "home": {
+    "title": "Monitor",
+    "subtitle": "Excellence in <br /> managing your grades.",
+    "button": "Discover the App"
+  },
+  "about": {
+    "subtitle": "Who are we",
+    "title": "We simplify <br /> school tracking",
+    "description": "Monitor is an intuitive platform designed to help institutions efficiently manage grades, attendance, and overall communication, ensuring the success of every student.",
+    "button": "Learn More"
+  },
+  "features": {
+    "messages": {
+      "title": "Messages and Announcements",
+      "description": "Two-way communication between the school and parents in real time."
+    },
+    "notes": {
+      "title": "Grade Consultation",
+      "description": "Instant tracking of academic results and student progress."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Notification",
+      "description": "Automatic reception of averages and notices via your favorite messaging app."
+    },
+    "learning": {
+      "title": "Tailored Learning",
+      "description": "Adapted tools that align with the student's curriculum and pace."
+    },
+    "games": {
+      "title": "Fun Training",
+      "description": "Interactive quizzes and corrected homework for stimulating learning."
+    },
+    "intuitive": {
+      "title": "Simple and Intuitive",
+      "description": "Interface designed for immediate use by all users."
+    }
+  },
+  "services": {
+    "subtitle": "Our Solutions",
+    "title": "Key Features",
+    "grades": {
+      "title": "Grade Management",
+      "description": "Fast and secure grade entry by teachers, with automatic report card generation."
+    },
+    "tracking": {
+      "title": "Real-time Tracking",
+      "description": "Allow parents to instantly track grade evolution and student attendance via mobile."
+    },
+    "security": {
+      "title": "Data Security",
+      "description": "All school information is encrypted and backed up, ensuring total confidentiality."
+    }
+  },
+  "modules": {
+    "subtitle": "Modules",
+    "title": "Our Main Modules",
+    "teacher": "Teacher Portal",
+    "parent": "Parent Portal",
+    "admin": "Administration",
+    "teacher_desc": "Simplified Management",
+    "parent_desc": "Transparent Tracking",
+    "admin_desc": "Full Control",
+    "included": "Included",
+    "premium": "Premium"
+  },
+  "app": {
+    "subtitle": "Application",
+    "title": "Application Available",
+    "description": "Take Monitor everywhere with you. Consult schedules, absences, and receive notifications for every new grade."
+  },
+  "contact": {
+    "subtitle": "Let's Talk",
+    "title": "Need more info?",
+    "description": "Transform your institution with Monitor. Contact our team for a free personalized demo.",
+    "button": "Contact Us",
+    "or": "or",
+    "demo_button": "Request a Demo"
+  },
+  "details": {
+    "subtitle": "Details",
+    "title": "Everything Monitor can do",
+    "grades": {
+      "title": "Grade & Report Card Management",
+      "description": "Intuitive entry of evaluations, automatic average calculation, and generation of customizable school report cards in one click."
+    },
+    "attendance": {
+      "title": "Attendance Tracking",
+      "description": "Management of absences and delays with instant notifications to parents via SMS or mobile app."
+    },
+    "communication": {
+      "title": "Parent-Teacher Communication",
+      "description": "Secure exchange space to discuss student progress, share homework, and important announcements."
+    },
+    "schedule": {
+      "title": "Timetable",
+      "description": "Interactive lesson planning, room management, and teacher substitutions."
+    },
+    "links": "Quick Links",
+    "download": "Download"
+  },
+  "download": {
+    "subtitle": "Availability",
+    "title": "Monitor for your computer",
+    "windows": "Compatible Win 10, 11 (64-bit)",
+    "macos": "M1/M2 & Intel processors",
+    "linux": "AppImage, Deb, Rpm versions",
+    "button_exe": "Download .exe",
+    "button_dmg": "Download .dmg",
+    "button_appimage": "Download .AppImage",
+    "install_title": "Easy Installation",
+    "install_desc": "Download the installer for your operating system, run it, and log in with your Monitor credentials provided by your institution.",
+    "help": "Help",
+    "guide": "Installation Guide",
+    "faq": "FAQ",
+    "support": "Technical Support",
+    "legal": "Legal",
+    "security": "Security"
+  },
+  "security": {
+    "subtitle": "Confidentiality",
+    "title": "Your security is our priority",
+    "encryption": {
+      "title": "End-to-End Encryption",
+      "description": "All student data and grades are encrypted during storage and transmission."
+    },
+    "compliance": {
+      "title": "GDPR & Local Compliance",
+      "description": "We comply with data protection standards in force in Benin and international standards."
+    },
+    "backup": {
+      "title": "Automatic Backups",
+      "description": "Daily backups ensure that your school data will never be lost."
+    }
+  },
+  "demo": {
+    "subtitle": "Demonstration",
+    "title": "Try Monitor for free",
+    "description": "Fill out the form below to schedule a personalized demonstration with one of our experts. Discover how Monitor can transform the management of your institution.",
+    "form": {
+      "school_name": "School Name",
+      "school_placeholder": "e.g. Excellence School",
+      "contact_name": "Full Contact Name",
+      "contact_placeholder": "Your name",
+      "email_label": "Professional Email",
+      "email_placeholder": "email@school.com",
+      "phone_label": "Phone Number",
+      "phone_placeholder": "+229 00 00 00 00",
+      "students_label": "Number of Students",
+      "students_select": "Select...",
+      "students_less_100": "Less than 100",
+      "submit": "Send Request"
+    }
+  },
+  "contact_page": {
+    "subtitle": "Contact",
+    "title": "How can we help you?",
+    "description": "Need technical help or information about our rates? Our team is here to support you.",
+    "email_button": "Send an Email",
+    "phone": "Phone"
+  },
+  "footer": {
+    "description": "School Management",
+    "expertises": "Expertise",
+    "info": "Information",
+    "address": "Address",
+    "copy": "&#169; 2026 Monitor by Litxx | All rights reserved"
+  }
+}

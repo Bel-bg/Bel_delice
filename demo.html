@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <style>
+      /* Language Switcher Dropdown */
+      .lang-switcher {
+        position: relative;
+        display: inline-block;
+        margin-left: 1rem;
+      }
+
+      .lang-selected {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        cursor: pointer;
+        padding: 0.4rem 0.6rem;
+        border-radius: 0.5rem;
+        transition: 0.3s;
+        background-color: transparent;
+      }
+
+      .lang-selected:hover {
+        background-color: var(--first-color-alt);
+        color: #fff;
+      }
+
+      .lang-selected img {
+        width: 20px;
+        height: 15px;
+        object-fit: cover;
+        border-radius: 2px;
+      }
+
+      .lang-dropdown {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: var(--container-color);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+        padding: 0.5rem 0;
+        display: none;
+        z-index: var(--z-fixed);
+        min-width: 120px;
+      }
+
+      .lang-switcher:hover .lang-dropdown {
+        display: block;
+      }
+
+      .lang-option {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.6rem 1rem;
+        cursor: pointer;
+        transition: 0.3s;
+        color: var(--title-color);
+        font-size: 0.9rem;
+      }
+
+      .lang-option:hover {
+        background-color: var(--first-color-alt);
+        color: #fff;
+      }
+
+      .lang-option img {
+        width: 20px;
+        height: 15px;
+        object-fit: cover;
+        border-radius: 2px;
+      }
+
+      .lang-option.active-lang {
+        color: var(--first-color);
+        font-weight: var(--font-semi-bold);
+      }
+
+      .lang-option.active-lang:hover {
+        color: #fff;
+      }
+    </style>
+    <title>Demander une Démo | Monitor</title>
+  </head>
+  <body>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-chevron-up scrolltop__icon"></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="index.html" class="nav__logo">Monitor</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html#home" class="nav__link" data-i18n="nav.home"
+                >Accueil</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="index.html#about" class="nav__link" data-i18n="nav.about"
+                >À propos</a
+              >
+            </li>
+            <li class="nav__item dropdown">
+              <a href="#" class="nav__link" data-i18n="nav.platform"
+                >Plateforme <i class="bx bx-chevron-down dropdown__icon"></i
+              ></a>
+              <ul class="dropdown__menu">
+                <li>
+                  <a
+                    href="details.html"
+                    class="dropdown__link"
+                    data-i18n="nav.details"
+                    >Détails des fonctions</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="index.html#menu"
+                    class="dropdown__link"
+                    data-i18n="nav.modules"
+                    >Modules Monitor</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="security.html"
+                    class="dropdown__link"
+                    data-i18n="nav.security"
+                    >Sécurité des données</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav__item dropdown">
+              <a href="#" class="nav__link active-link" data-i18n="nav.access"
+                >Accès <i class="bx bx-chevron-down dropdown__icon"></i
+              ></a>
+              <ul class="dropdown__menu">
+                <li>
+                  <a
+                    href="download.html"
+                    class="dropdown__link"
+                    data-i18n="nav.download"
+                    >Téléchargement PC</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="demo.html"
+                    class="dropdown__link"
+                    data-i18n="nav.demo"
+                    >Demander une Démo</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="contact.html"
+                    class="dropdown__link"
+                    data-i18n="nav.contact"
+                    >Contactez-nous</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="lang-switcher">
+              <div class="lang-selected" id="active-lang-display">
+                <img
+                  src="https://flagcdn.com/w40/fr.png"
+                  alt="FR"
+                  id="active-flag"
+                />
+                <span id="active-lang-text">FR</span>
+                <i class="bx bx-chevron-down"></i>
+              </div>
+              <div class="lang-dropdown">
+                <div class="lang-option" onclick="changeLanguage('fr')">
+                  <img src="https://flagcdn.com/w40/fr.png" alt="FR" />
+                  <span>Français</span>
+                </div>
+                <div class="lang-option" onclick="changeLanguage('en')">
+                  <img src="https://flagcdn.com/w40/gb.png" alt="EN" />
+                  <span>English</span>
+                </div>
+              </div>
+            </li>
+            <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <section class="contact section bd-container">
+        <span class="section-subtitle" data-i18n="demo.subtitle"
+          >Démonstration</span
+        >
+        <h2 class="section-title" data-i18n="demo.title">
+          Essayez Monitor gratuitement
+        </h2>
+
+        <div class="contact__container bd-grid">
+          <div class="contact__data">
+            <p class="contact__description" data-i18n="demo.description">
+              Remplissez le formulaire ci-dessous pour planifier une
+              démonstration personnalisée avec l'un de nos experts. Découvrez
+              comment Monitor peut transformer la gestion de votre
+              établissement.
+            </p>
+
+            <style>
+              .form__container {
+                background-color: var(--container-color);
+                padding: 2rem;
+                border-radius: 1rem;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                text-align: left;
+              }
+              .form__group {
+                margin-bottom: 1.5rem;
+              }
+              .form__label {
+                display: block;
+                margin-bottom: 0.5rem;
+                color: var(--title-color);
+                font-weight: var(--font-medium);
+              }
+              .form__input {
+                width: 100%;
+                padding: 0.75rem;
+                border: 1px solid var(--text-color-light);
+                border-radius: 0.5rem;
+                background-color: var(--body-color);
+                color: var(--text-color);
+                font-family: var(--body-font);
+              }
+              .form__input:focus {
+                outline: none;
+                border-color: var(--first-color);
+              }
+            </style>
+
+            <div class="form__container">
+              <form action="#">
+                <div class="form__group">
+                  <label class="form__label" data-i18n="demo.form.school_name"
+                    >Nom de l'établissement</label
+                  >
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Ex: École de l'Excellence"
+                  />
+                </div>
+                <div class="form__group">
+                  <label class="form__label" data-i18n="demo.form.contact_name"
+                    >Nom complet du contact</label
+                  >
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Votre nom"
+                  />
+                </div>
+                <div class="form__group">
+                  <label class="form__label" data-i18n="demo.form.email_label"
+                    >Email professionnel</label
+                  >
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="email@ecole.com"
+                  />
+                </div>
+                <div class="form__group">
+                  <label class="form__label" data-i18n="demo.form.phone_label"
+                    >Téléphone</label
+                  >
+                  <input
+                    type="tel"
+                    class="form__input"
+                    placeholder="+229 00 00 00 00"
+                  />
+                </div>
+                <div class="form__group">
+                  <label
+                    class="form__label"
+                    data-i18n="demo.form.students_label"
+                    >Nombre d'élèves</label
+                  >
+                  <select class="form__input">
+                    <option value="" data-i18n="demo.form.students_select">
+                      Sélectionnez...
+                    </option>
+                    <option
+                      value="1-100"
+                      data-i18n="demo.form.students_less_100"
+                    >
+                      Moins de 100
+                    </option>
+                    <option value="101-500">101 - 500</option>
+                    <option value="501-1000">501 - 1000</option>
+                    <option value="1000+">Plus de 1000</option>
+                  </select>
+                </div>
+                <button
+                  type="submit"
+                  class="button"
+                  data-i18n="demo.form.submit"
+                >
+                  Envoyer la demande
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <img
+            src="assets/img/movil-app.png"
+            alt=""
+            class="contact__img"
+            style="width: 300px; justify-self: center"
+          />
+        </div>
+      </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+      <div class="footer__container bd-grid">
+        <div class="footer__content">
+          <a href="index.html" class="footer__logo">Monitor</a>
+          <span class="footer__description" data-i18n="footer.description"
+            >Gestion Scolaire</span
+          >
+          <div>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#" class="footer__social"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title" data-i18n="footer.expertises">
+            Expertises
+          </h3>
+          <ul>
+            <li>
+              <a href="details.html" class="footer__link">Gestion Notes</a>
+            </li>
+            <li><a href="#" class="footer__link">Tarification</a></li>
+            <li><a href="#" class="footer__link">Support Technique</a></li>
+            <li><a href="demo.html" class="footer__link">Démonstration</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title" data-i18n="footer.address">Adresse</h3>
+          <ul>
+            <li>Cotonou - Bénin</li>
+            <li>Litxx Company</li>
+            <li>+229 01 40 76 96 28</li>
+            <li>support@monitor.bj</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__copy" data-i18n="footer.copy">
+        &#169; 2026 Monitor par Litxx | Tous droits réservés
+      </p>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+    <!--========== BILINGUAL JS ==========-->
+    <script src="assets/js/i18n.js"></script>
+  </body>
+</html>

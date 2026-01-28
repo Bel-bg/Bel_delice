@@ -11,7 +11,7 @@
     />
 
     <!--========== CSS ==========-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <style>
       /* Language Switcher Dropdown */
       .lang-switcher {
@@ -92,29 +92,19 @@
         color: #fff;
       }
     </style>
-    <title>Fonctionnalités | Monitor</title>
+    <title>Sécurité des Données | Monitor</title>
   </head>
   <body>
-    <!--========== SCROLL TOP ==========-->
-    <a href="#" class="scrolltop" id="scroll-top">
-      <i class="bx bx-chevron-up scrolltop__icon"></i>
-    </a>
-
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
       <nav class="nav bd-container">
-        <a href="index.html" class="nav__logo">Monitor</a>
+        <a href="../index.html" class="nav__logo">Monitor</a>
 
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="index.html#home" class="nav__link" data-i18n="nav.home"
+              <a href="../index.html" class="nav__link" data-i18n="nav.home"
                 >Accueil</a
-              >
-            </li>
-            <li class="nav__item">
-              <a href="index.html#about" class="nav__link" data-i18n="nav.about"
-                >À propos</a
               >
             </li>
             <li class="nav__item dropdown">
@@ -132,7 +122,7 @@
                 </li>
                 <li>
                   <a
-                    href="index.html#menu"
+                    href="../index.html#menu"
                     class="dropdown__link"
                     data-i18n="nav.modules"
                     >Modules Monitor</a
@@ -148,38 +138,6 @@
                 </li>
               </ul>
             </li>
-            <li class="nav__item dropdown">
-              <a href="#" class="nav__link" data-i18n="nav.access"
-                >Accès <i class="bx bx-chevron-down dropdown__icon"></i
-              ></a>
-              <ul class="dropdown__menu">
-                <li>
-                  <a
-                    href="download.html"
-                    class="dropdown__link"
-                    data-i18n="nav.download"
-                    >Téléchargement PC</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="demo.html"
-                    class="dropdown__link"
-                    data-i18n="nav.demo"
-                    >Demander une Démo</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="contact.html"
-                    class="dropdown__link"
-                    data-i18n="nav.contact"
-                    >Contactez-nous</a
-                  >
-                </li>
-              </ul>
-            </li>
-
             <li class="lang-switcher">
               <div class="lang-selected" id="active-lang-display">
                 <img
@@ -204,115 +162,66 @@
             <li><i class="bx bx-moon change-theme" id="theme-button"></i></li>
           </ul>
         </div>
-
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </div>
       </nav>
     </header>
 
     <main class="l-main">
-      <section class="about section bd-container">
-        <span class="section-subtitle" data-i18n="details.subtitle"
-          >Détails</span
+      <section class="section bd-container">
+        <span class="section-subtitle" data-i18n="security.subtitle"
+          >Confidentialité</span
         >
-        <h2 class="section-title" data-i18n="details.title">
-          Tout ce que Monitor peut faire
+        <h2 class="section-title" data-i18n="security.title">
+          Votre sécurité est notre priorité
         </h2>
 
-        <div class="about__container bd-grid">
-          <div class="about__data">
-            <h3 class="services__title" data-i18n="details.grades.title">
-              Gestion des Notes & Bulletins
+        <div class="contact__container bd-grid">
+          <div class="contact__data">
+            <h3 class="services__title" data-i18n="security.encryption.title">
+              Chiffrement de bout en bout
             </h3>
             <p
-              class="about__description"
-              data-i18n="details.grades.description"
+              class="contact__description"
+              data-i18n="security.encryption.description"
             >
-              Saisie intuitive des évaluations, calcul automatique des moyennes,
-              et génération de bulletins scolaires personnalisables en un clic.
+              Toutes les données élèves et les notes sont chiffrées lors du
+              stockage et de la transmission.
             </p>
 
-            <h3 class="services__title" data-i18n="details.attendance.title">
-              Suivi de l'Assiduité
+            <h3 class="services__title" data-i18n="security.compliance.title">
+              Conformité RGPD & Locale
             </h3>
             <p
-              class="about__description"
-              data-i18n="details.attendance.description"
+              class="contact__description"
+              data-i18n="security.compliance.description"
             >
-              Gestion des absences et des retards avec notifications
-              instantanées aux parents via SMS ou application mobile.
+              Nous respectons les normes de protection des données en vigueur au
+              Bénin et les standards internationaux.
             </p>
 
-            <h3 class="services__title" data-i18n="details.communication.title">
-              Communication Parents-Enseignants
+            <h3 class="services__title" data-i18n="security.backup.title">
+              Sauvegardes automatiques
             </h3>
             <p
-              class="about__description"
-              data-i18n="details.communication.description"
+              class="contact__description"
+              data-i18n="security.backup.description"
             >
-              Espace d'échange sécurisé pour discuter des progrès de l'élève,
-              partager des devoirs et des annonces importantes.
-            </p>
-
-            <h3 class="services__title" data-i18n="details.schedule.title">
-              Emploi du Temps
-            </h3>
-            <p
-              class="about__description"
-              data-i18n="details.schedule.description"
-            >
-              Planification interactive des cours, gestion des salles et des
-              remplacements d'enseignants.
+              Des sauvegardes quotidiennes garantissent que vos données
+              scolaires ne seront jamais perdues.
             </p>
           </div>
-          <img src="assets/img/about.jpg" alt="" class="about__img" />
         </div>
       </section>
     </main>
 
     <!--========== FOOTER ==========-->
     <footer class="footer section bd-container">
-      <div class="footer__container bd-grid">
-        <div class="footer__content">
-          <a href="index.html" class="footer__logo">Monitor</a>
-          <span class="footer__description" data-i18n="footer.description"
-            >Gestion Scolaire</span
-          >
-        </div>
-
-        <div class="footer__content">
-          <h3 class="footer__title" data-i18n="details.links">Liens rapides</h3>
-          <ul>
-            <li>
-              <a href="index.html" class="footer__link" data-i18n="nav.home"
-                >Accueil</a
-              >
-            </li>
-            <li>
-              <a href="demo.html" class="footer__link" data-i18n="nav.demo"
-                >Démonstration</a
-              >
-            </li>
-            <li>
-              <a
-                href="download.html"
-                class="footer__link"
-                data-i18n="details.download"
-                >Télécharger</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
       <p class="footer__copy" data-i18n="footer.copy">
         &#169; 2026 Monitor par Litxx | Tous droits réservés
       </p>
     </footer>
 
-    <!--========== MAIN JS ==========-->
-    <script src="assets/js/main.js"></script>
+    <script src="./js/main.js"></script>
     <!--========== BILINGUAL JS ==========-->
-    <script src="assets/js/i18n.js"></script>
+    <script src="./js/i18n.js"></script>
   </body>
 </html>

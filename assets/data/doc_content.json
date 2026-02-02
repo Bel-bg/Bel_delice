@@ -1,0 +1,110 @@
+[
+  {
+    "id": "onboarding",
+    "title": "Ajouter son Etablissement",
+    "subsections": [
+      {
+        "id": "onboarding-intro",
+        "title": "Introduction au programme",
+        "content": "Bienvenue sur Monitor ! Pour commencer, vous devez enregistrer votre établissement. Cette étape permet de configurer votre espace de travail personnalisé et de définir les accès pour vos collaborateurs.",
+        "media": {
+          "type": "image",
+          "url": "img/monitor_dashboard_doc.png"
+        }
+      },
+      {
+        "id": "inscription",
+        "title": "Procédure d'inscription",
+        "content": "Remplissez le formulaire d'adhésion avec les informations légales de votre école. Une fois validé, vous recevrez vos identifiants administrateur par email.",
+        "media": null
+      }
+    ]
+  },
+  {
+    "id": "installation",
+    "title": "Installation & Implémentation",
+    "subsections": [
+      {
+        "id": "config-serveur",
+        "title": "Configuration Technique",
+        "content": "Le déploiement de Monitor nécessite un environnement stable. Assurez-vous que vos terminaux respectent la configuration minimale requise pour une performance optimale.",
+        "media": {
+          "type": "image",
+          "url": "img/monitor_dashboard_doc.png"
+        }
+      },
+      {
+        "id": "migration-donnees",
+        "title": "Importation des données",
+        "content": "Importez facilement vos listes d'élèves et d'enseignants via nos fichiers templates Excel. Notre équipe peut vous assister dans cette étape critique.",
+        "media": null
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "title": "Utilisation Mobile (Utilisateurs)",
+    "subsections": [
+      {
+        "id": "mobile-intro",
+        "title": "Premiers pas sur Mobile",
+        "content": "L'application mobile Monitor est l'outil quotidien des parents et enseignants. Elle offre une interface fluide pour consulter les notes, les absences et les communiqués en temps réel.",
+        "media": {
+          "type": "image",
+          "url": "img/monitor_mobile_app_doc.png"
+        }
+      },
+      {
+        "id": "notifications",
+        "title": "Notifications et Alertes",
+        "content": "Activez les notifications push pour ne rien rater des mises à jour de l'école. Recevez des alertes instantanées dès qu'une nouvelle note est publiée.",
+        "media": null
+      }
+    ]
+  },
+  {
+    "id": "desktop",
+    "title": "Utilisation Desktop (Administrateurs)",
+    "subsections": [
+      {
+        "id": "collecteurs",
+        "title": "Gestion des Utilisateurs",
+        "content": "En tant qu'administrateur, vous avez le contrôle total sur les comptes utilisateurs. Créez des rôles spécifiques (Secrétaire, Comptable, Directeur) pour déléguer les tâches en toute sécurité.",
+        "media": {
+          "type": "image",
+          "url": "img/monitor_dashboard_doc.png"
+        }
+      },
+      {
+        "id": "stats",
+        "title": "Statistiques et Rapports",
+        "content": "Visualisez les performances globales de l'établissement grâce à des tableaux de bord interactifs. Générez des rapports périodiques en un clic.",
+        "media": null
+      }
+    ]
+  },
+  {
+    "id": "faq",
+    "title": "Questions Fréquentes",
+    "subsections": [
+      {
+        "id": "faq-connexion",
+        "title": "Problèmes de connexion",
+        "content": "Si vous avez perdu votre mot de passe, utilisez le lien 'Mot de passe oublié' sur l'écran d'accueil. Un code de réinitialisation vous sera envoyé.",
+        "media": null
+      }
+    ]
+  },
+  {
+    "id": "feedback",
+    "title": "Signaler un problème / Retour",
+    "subsections": [
+      {
+        "id": "report-issue",
+        "title": "Formulaire de Retour",
+        "content": "Votre satisfaction est notre priorité. Utilisez cette section pour nous signaler tout bug ou pour nous faire part de vos suggestions d'amélioration.",
+        "media": null
+      }
+    ]
+  }
+]

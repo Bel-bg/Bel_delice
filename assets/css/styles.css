@@ -40,6 +40,15 @@
   --z-tooltip: 10;
   --z-fixed: 100;
 }
+/*========== SCROLL BAR ==========*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: var(--body-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--first-color);
+}
 
 @media screen and (min-width: 768px) {
   :root {

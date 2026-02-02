@@ -1,12 +1,12 @@
 {
   "nav": {
     "home": "Home",
-    "about": "About",
-    "platform": "Platform",
+    "about": "Documentations",
+    "platform": "Blog",
     "details": "Feature Details",
     "modules": "Monitor Modules",
     "security": "Data Security",
-    "access": "Access",
+    "access": "Get",
     "download": "PC Download",
     "demo": "Request a Demo",
     "contact": "Contact Us"

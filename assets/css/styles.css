@@ -206,7 +206,13 @@ img {
 .nav__logo:hover {
   color: var(--first-color);
 }
-
+.nav__logo_svg{
+  width: 4rem;
+  height: 4rem;
+  vertical-align: middle;
+  margin-right: 8px;
+  color: var(--first-color);
+}
 .nav__link {
   transition: 0.3s;
 }
